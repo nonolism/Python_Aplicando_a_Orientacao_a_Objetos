@@ -18,7 +18,7 @@ Este projeto é um exemplo prático dos conceitos de orientação a objetos em P
 
 1. Clone o repositório:
     ```bash
-    git clone github.com/nonolism/Python_Aplicando_a_Orientacao_a_Objetos
+    git clone https://github.com/nonolism/Python_Aplicando_a_Orientacao_a_Objetos.git
     ```
 2. Navegue até o diretório do projeto:
     ```bash
