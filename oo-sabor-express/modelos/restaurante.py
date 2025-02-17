@@ -20,9 +20,9 @@ class Restaurante:
         '''o @classmethod é um decorator que transforma o método em um método de classe
         e não de instância, ou seja, ele não precisa de uma instância para ser chamado
         e sim da própria classe'''
-        print(f'{'Nome do restaurante'.ljust(25)} | {'Categoria'.ljust(25)} | {'Status'}')
+        print(f'{'Nome do restaurante'.ljust(25)} | {'Categoria'.ljust(25)} | {'Avaliação'.ljust(25)} | {'Status'}')
         for restaurante in Restaurante.restaurantes:
-            print(f'{restaurante._nome.ljust(25)} | {restaurante._categoria.ljust(25)} | {restaurante.ativo}')
+            print(f'{restaurante._nome.ljust(25)} | {restaurante._categoria.ljust(25)} | {str(restaurante.media_avaliacoes).ljust(25)} | {restaurante.ativo}')
 
     @property 
     def ativo(self):
